@@ -1,7 +1,6 @@
 public class Operadores {
-
-    public static void main{
-
-}
-
+    
+public static void public static void main(String[] args) {
+    
+}  
 }
