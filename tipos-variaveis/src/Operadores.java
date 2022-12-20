@@ -3,9 +3,9 @@ import javax.sound.midi.SysexMessage;
 public class Operadores {
     public static void main(String[] args) throws Exception {
        String nomeUm = "Carolina";
-       String nomeDois = "Carolina";
+       String nomeDois = new String ("Carolina");
 
-       System.out.println(nomeUm == nomeDois);
+       System.out.println(nomeUm.equals(nomeDois));
        
        
        
