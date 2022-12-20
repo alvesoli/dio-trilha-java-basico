@@ -1,34 +1,19 @@
 import javax.sound.midi.SysexMessage;
 
 public class Operadores {
-    public static void main(String[] args) throws Exception {
-       String nomeUm = "Carolina";
-       String nomeDois = new String ("Carolina");
+    public static void main(String[] args){
+        boolean condicao1=true;
 
-       System.out.println(nomeUm.equals(nomeDois));
-       
-       
-       
-        int numero1 = 1;
-        int numero2 = 2;
+        boolean condicao2=true;
 
-        boolean simNao = numero1 == numero2;
+            if(condicao1 && condicao2){
+                System.out.println("as duas condições são verdadeiras");
+            }
+                if(condicao1 || condicao2){
+                    System.out.println("Uma das condições é verdadeiras");
+            }
 
-        if(numero1 < numero2){
-        System.out.print("A nossa condição é verdadeira");
-        }
-	   
-        
-        System.out.println("numeroUm é igual a numeroDois? " + simNao);
-
-        simNao = numero1 != numero2;
-
-        System.out.println("numeroUm é diferente de  numeroDois? " + simNao);
-
-        simNao = numero1 > numero2;
-
-        System.out.println("numeroUm é maior que numeroDois? " + simNao);
-            
+            System.out.println("fim");
             }
         }
         
