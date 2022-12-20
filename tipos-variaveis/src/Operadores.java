@@ -4,6 +4,7 @@ public class Operadores {
 
         variavel = !variavel;
 
+    
         System.out.println(variavel);
         }
 }
