@@ -4,7 +4,7 @@ public class Operadores {
             a = 5;
             b = 6;
             
-            String resultado = a==b ?"verdadeiro" : "faslse";
+            String resultado = a==b ?"verdadeiro" : "false";
            
             System.out.println (resultado);
             
